@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+          color: darkblue;
+          position: absolute;
+          left: 20%;
+          top: 20%;
+          font-family: verdana;
+          font-size: 1000%;
+          animation: h1animation 5s infinite;
+        }
+        body  {
+          background-color: red;
+          animation: myanimation 10s infinite;
+        }
+        @keyframes myanimation {
+            0% {background-color: red;}
+            25%{background-color:yellow;}
+            50%{background-color:green;}
+            75%{background-color:brown;}
+            100% {background-color: red;}
+        }
+        @keyframes h1animation {
+            0% {font-size: 1000%;}
+            50%{font-size: 1200%;}
+            100% {font-size: 1000%;}
+        }
+        </style>
+
+</head>
+<body>
+    <h1>Hello World!</h1>
+</body>
+</html>
